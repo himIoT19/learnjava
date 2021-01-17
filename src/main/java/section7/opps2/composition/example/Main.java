@@ -1,4 +1,4 @@
-package section7.opps2.composition;
+package section7.opps2.composition.example;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,8 +12,9 @@ public class Main {
 
         PC dellPC = new PC(dellCase, dellMonitor, asusMotherboard);
 
-        dellPC.getTheCase().pressPowerButton();
-        dellPC.getMotherboard().loadProgram("Ubuntu 20.04 LTS");
-        dellPC.getMonitor().drawPixels(1500, 1200, "red");
+//        dellPC.getTheCase().pressPowerButton();
+//        dellPC.getMotherboard().loadProgram("Ubuntu 20.04 LTS");
+//        dellPC.getMonitor().drawPixels(1500, 1200, "red");
+        dellPC.powerUp();
     }
 }

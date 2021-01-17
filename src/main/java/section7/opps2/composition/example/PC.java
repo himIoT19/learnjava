@@ -1,4 +1,4 @@
-package section7.opps2.composition;
+package section7.opps2.composition.example;
 
 public class PC {
     private Case theCase;
