@@ -1,4 +1,4 @@
-package section6.instancemethods;
+package section6.oops1.instancemethods;
 
 class Dog {
     private String name;

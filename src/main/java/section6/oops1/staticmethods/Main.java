@@ -1,4 +1,4 @@
-package section6.staticmethods;
+package section6.oops1.staticmethods;
 
 class Dog {
     private static String name;
