@@ -1,4 +1,4 @@
-package section7.opps2.encapsulation;
+package section7.opps2.encapsulation.example;
 
 public class EnhancedPlayer {
     private String name;
