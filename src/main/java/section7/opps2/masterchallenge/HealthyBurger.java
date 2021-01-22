@@ -1,8 +1,5 @@
 package section7.opps2.masterchallenge;
 
-/**
- * Created by dev on 11/08/15.
- */
 public class HealthyBurger extends Hamburger {
 
     private String healthyExtra1Name;
@@ -11,10 +8,12 @@ public class HealthyBurger extends Hamburger {
     private String healthyExtra2Name;
     private double healthyExtra2Price;
 
+    // Constructor
     public HealthyBurger(String meat, double price) {
         super("Healthy", meat, price, "Brown rye");
     }
 
+    // Additional Methods
     public void addHealthAddition1(String name, double price) {
         this.healthyExtra1Name = name;
         this.healthyExtra1Price = price;
@@ -25,14 +24,15 @@ public class HealthyBurger extends Hamburger {
         this.healthyExtra2Price = price;
     }
 
+    // Overridden Methods
     @Override
     public double itemizeHamburger() {
         double hamburgerPrice = super.itemizeHamburger();
-        if(this.healthyExtra1Name != null) {
+        if (this.healthyExtra1Name != null) {
             hamburgerPrice += this.healthyExtra1Price;
             System.out.println("Added " + this.healthyExtra1Name + " for an extra " + this.healthyExtra1Price);
         }
-        if(this.healthyExtra2Name != null) {
+        if (this.healthyExtra2Name != null) {
             hamburgerPrice += this.healthyExtra2Price;
             System.out.println("Added " + this.healthyExtra2Name + " for an extra " + this.healthyExtra2Price);
         }
