@@ -1,5 +1,6 @@
 package section8.listandarraylist.challenge;
 
+
 public class Contact {
     private String name;
     private String phoneNumber;
