@@ -1,6 +1,4 @@
-package com.timbuchalka;
-
-import section8.listandarraylist.example.GroceryList;
+package section8.listandarraylist.example;
 
 import java.util.ArrayList;
 import java.util.Scanner;
