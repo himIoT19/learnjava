@@ -50,7 +50,7 @@ public class Player implements ISaveable {
 
     @Override
     public String toString() {
-        return "Player: {" +
+        return "Player{" +
                 "name='" + name + '\'' +
                 ", hitPoints=" + hitPoints +
                 ", strength=" + strength +
