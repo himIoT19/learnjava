@@ -39,6 +39,7 @@ public class Main {
         ISaveable werewolf = new Monster("Werewolf", 20, 40);
         System.out.println("Strength = " + ((Monster) werewolf).getStrength());
         saveObject(werewolf);
+        System.out.println(werewolf);
     }
 
     public static ArrayList<String> readValues() {
